@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1244</width>
+    <height>870</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{background: qlineargradient(spread:pad, x1:1, y1:1, x2:0.028169, y2:0.051, stop:0.0422535 rgba(246, 58, 146, 255), stop:0.295775 rgba(255, 191, 191, 255), stop:0.652582 rgba(255, 170, 255, 255), stop:1 rgba(153, 150, 240, 255));}
+*{
+	font: 12pt &quot;Segoe UI&quot;;
+}
+
+.QLineEdit{
+border: 1px solid white;
+background: transparent;
+color: #333;
+border: none;
+border-bottom: 1px solid rgb(155, 150, 240);
+
+border-radius: 50px;
+padding-bottom:-50px;
+}
+
+.QPushButton{font-size: 40px;
+color: rgb(8, 207, 200);
+background-color: black;
+border-radius: 30px 35px;
+
+}
+.QPushButton:hover{
+color: black;
+background-color:qlineargradient(spread:repeat, x1:1, y1:1, x2:0.005, y2:0, stop:0 rgba(8, 207, 200, 255), stop:0.521127 rgba(166, 255, 248, 255), stop:0.784038 rgba(5, 112, 147, 255));
+}
+QLabel{
+font: 14pt &quot;Segoe UI&quot;;
+color:rgb(248, 89, 157);
+border: 2px solid rgb(248,89,157);
+border-radius: 10%;
+background:white;}
+QComboBox{
+background:white;
+color:rgb(248, 89, 157);
+border:2px solid rgb(248, 89, 157);
+	font: 12pt &quot;Segoe UI&quot;;
+border-radius: 10%;
+}</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>100</y>
+     <width>1071</width>
+     <height>741</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{background-color: #FFF;
+border-radius:  40px;}
+QPushButton{font-size: 25px;
+color: rgb(248, 89, 157);
+border-radius: 30%;
+border:2px solid qlineargradient(spread:pad, x1:1, y1:1, x2:0.028169, y2:0.051, stop:0.0422535 rgb(248, 89, 157));
+background:#FFF;
+
+}
+QPushButton:hover{
+border:none;
+color: #FFF;
+background-color:rgb(253, 166, 182);
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="search">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>50</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>111</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>assets/images/logo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="productsWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>1011</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:#FFF;
+border:2px solid rgb(248, 89, 157);
+border-radius:10%;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="category">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>60</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="currentText">
+     <string>Shoes</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="placeholderText">
+     <string>Category</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Shoes</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shirts</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bottoms</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Suits</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Accessories</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="size">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>60</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <property name="placeholderText">
+     <string>Size</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Extra Small</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Small</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Medium</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Large</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Extra Large</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="gender">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>60</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="placeholderText">
+     <string>Gender</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Male</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Female</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="message">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>320</y>
+      <width>351</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;
+font-size:24pt</string>
+    </property>
+    <property name="text">
+     <string>No Search Results</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="loading">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>320</y>
+      <width>1041</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;
+font-size:44pt</string>
+    </property>
+    <property name="text">
+     <string>LOADING...</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>search</zorder>
+   <zorder>label_2</zorder>
+   <zorder>category</zorder>
+   <zorder>size</zorder>
+   <zorder>gender</zorder>
+   <zorder>productsWidget</zorder>
+   <zorder>message</zorder>
+   <zorder>loading</zorder>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>505</x>
+     <y>10</y>
+     <width>140</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: qlineargradient(spread:pad, x1:1, y1:1, x2:0.028169, y2:0.051, stop:0.0422535 rgba(246, 58, 146, 255), stop:0.295775 rgba(255, 191, 191, 255), stop:0.652582 rgba(255, 170, 255, 255), stop:1 rgba(153, 150, 240, 255));
+border-radius: 70px;
+border: 10px black;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>assets/images/login.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="userid1">
+   <property name="geometry">
+    <rect>
+     <x>855</x>
+     <y>70</y>
+     <width>61</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>755</x>
+     <y>70</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>User Id:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BacktoLogin">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>30</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{font-size: 18px;
+color: rgb(248, 89, 157);
+border-radius: 20%;
+border:2px solid qlineargradient(spread:pad, x1:1, y1:1, x2:0.028169, y2:0.051, stop:0.0422535 rgb(248, 89, 157));
+background-color:#fff
+}
+QPushButton:hover{
+border:none;
+color: #FFF;
+background-color:rgb(253, 166, 182);
+}</string>
+   </property>
+   <property name="text">
+    <string>&lt; Back to Menu</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
