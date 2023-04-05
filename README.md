@@ -143,7 +143,10 @@ needs.
 
 
 
+## UI - PyQT
+PyQt is a set of Python bindings for the popular cross-platform application development framework Qt. Qt is a comprehensive C++ framework that provides developers with a rich set of tools for building graphical user interfaces (GUIs), as well as other types of applications such as network and database applications. PyQt allows Python developers to create native GUI applications for Windows, macOS, Linux, and other platforms using Qt's powerful features, such as signals and slots, model/view architecture, and support for 2D and 3D graphics. PyQt is widely used in industry and academia for developing desktop and mobile applications, scientific simulations, and games, among other things.
 
+![cat image](https://download.logo.wine/logo/PyQt/PyQt-Logo.wine.png)
 
 ## Customer UI
 
