@@ -5,6 +5,7 @@
 ## TABLE OF CONTENTS
 
 - Problem
+- Team
 - Solution
    - Customer Application
    - Delivery Application
@@ -14,6 +15,10 @@
 - Delivery UI
 - ERD
 
+## Team
+- Mehran Wahid
+- Abdullah Saim - [Github](https://github.com/onkarrai06)
+- Aniqa Tufail
 
 ## Problem
 
