@@ -18,7 +18,7 @@
 ## Team
 - Mehran Wahid
 - Abdullah Saim - [Github](https://github.com/ASa1m)
-- Aniqa Tufail
+- Aniqa Tufail - [Github](https://github.com/AniqaTufail)
 
 ## Problem
 
