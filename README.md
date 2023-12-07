@@ -156,33 +156,41 @@ PyQt is a set of Python bindings for the popular cross-platform application deve
 ## Customer UI
 
 Login Page
+
 ![image](https://github.com/MehranSangrasi/Database-Project-Clothin--Management-Sysytem/assets/94314354/e645e473-7502-4fcb-9259-d36fbbf80738)
 
 Signup
+
 ![image](https://github.com/MehranSangrasi/Database-Project-Clothin--Management-Sysytem/assets/94314354/42d4bc57-fd62-4aac-b8c2-25f83db0e1a7)
 
 
 User Menu
+
 ![image](https://github.com/MehranSangrasi/Database-Project-Clothin--Management-Sysytem/assets/94314354/4b7355fd-405e-4f8c-979e-58aa8f1ad7ec)
 
 
 User Search
+
 ![image](https://github.com/MehranSangrasi/Database-Project-Clothin--Management-Sysytem/assets/94314354/ae944026-f5da-4d7d-8f2f-b1fc0ba05f51)
 
 
 Cart Checkout
+
 ![image](https://github.com/MehranSangrasi/Database-Project-Clothin--Management-Sysytem/assets/94314354/2e9c10b9-4e6e-4afa-96f5-82d5f017dc16)
 
 
 Account Management
+
 ![image](https://github.com/MehranSangrasi/Database-Project-Clothin--Management-Sysytem/assets/94314354/35717182-0fb6-4a08-a3b5-c266b9abae85)
 
 
 Login
+
 ![image](https://github.com/MehranSangrasi/Database-Project-Clothin--Management-Sysytem/assets/94314354/34193edc-e9d6-436e-9282-9a15679635c8)
 
 
 Menu
+
 ![image](https://github.com/MehranSangrasi/Database-Project-Clothin--Management-Sysytem/assets/94314354/92f1c504-0618-4b65-93aa-2d30d233df48)
 
 
@@ -190,14 +198,17 @@ Menu
 
 
 Insert item
+
 ![image](https://github.com/MehranSangrasi/Database-Project-Clothin--Management-Sysytem/assets/94314354/2b5edee4-ea92-48fa-a58c-073d2c81a8d7)
 
 
 Report
+
 ![image](https://github.com/MehranSangrasi/Database-Project-Clothin--Management-Sysytem/assets/94314354/1e2be0ab-cc0b-4680-8e04-6344b58458e3)
 
 
 Login
+
 ![image](https://github.com/MehranSangrasi/Database-Project-Clothin--Management-Sysytem/assets/94314354/1ad8f35b-7830-4e65-8ea4-a66d46e4c1c2)
 
 
@@ -205,7 +216,9 @@ Login
 
 
 City and Window Management
+
 ![image](https://github.com/MehranSangrasi/Database-Project-Clothin--Management-Sysytem/assets/94314354/9b85854b-911e-4832-8937-5848c25536b8)
+
 ![image](https://github.com/MehranSangrasi/Database-Project-Clothin--Management-Sysytem/assets/94314354/d6a0aa2d-ca38-4893-a0ec-52758fe2cce5)
 
 
