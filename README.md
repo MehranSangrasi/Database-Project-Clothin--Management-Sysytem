@@ -223,6 +223,7 @@ City and Window Management
 
 
 ## ERD:
-![cat image](https://i.ibb.co/jVY2chb/erd.png)
+![image](https://github.com/MehranSangrasi/Database-Project-Clothin--Management-Sysytem/assets/94314354/55cf6ba0-40d8-41cf-a7e9-9356e345406a)
+
 
 
